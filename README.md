@@ -1,7 +1,7 @@
 Das Motivator
 =========
 
-Based on a blog post (http://blog.assaflavie.com/procrastination/) this little site dispenses funny pictures in accordance with a variable reward scheme (random time intervals) to motivate the user
+Based on a blog post (http://blog.assaflavie.com/procrastination/) this little site dispenses funny picture from http://9gag.com in accordance with a variable reward scheme (random time intervals) to motivate the user
 MIT Licence
 
 Installation
