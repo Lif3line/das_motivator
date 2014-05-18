@@ -5,3 +5,6 @@ function rewardScheme(min,max){
     myImage.src = imgPath;
 }
 
+$(function(){
+	$('#response').load('grabber.php?url='+ 'http://9gag.com/');
+});
