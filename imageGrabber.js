@@ -1,10 +1,5 @@
-function rewardScheme(min,max){
-	var myImage = new Image();
-    myImage.name = imgPath;
-    myImage.onload = findHHandWW;
-    myImage.src = imgPath;
-}
+$('#displayCase').html("<img src='default.jpg' alt='motivation' class='centeredImg'>");
 
-$(function(){
-	$('#response').load('grabber.php?url='+ 'http://9gag.com/');
-});
+function rewardScheme(min,max){
+	$('#displayCase').load('grabber.php?url='+ 'http://9gag.com/');
+}

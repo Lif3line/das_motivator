@@ -11,3 +11,8 @@ html, body {
 	padding: 0px;
 	margin: 0px auto auto auto;
 }
+
+#displayCase {
+	width: 100%;
+	text-align: center;
+}
