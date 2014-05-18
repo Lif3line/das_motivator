@@ -5,7 +5,7 @@ setTimeout(function() {
 }, 3000);
 
 (function loop() {
-	var timeOut = Math.round(Math.random() * 15 * 60 * 1000);
+	var timeOut = Math.round(Math.random() * 14 * 60 * 1000) + 60000;
 	setTimeout(function() {
 		var audio = new Audio('notification.mp3');
 		audio.play();
