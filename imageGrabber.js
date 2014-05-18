@@ -7,6 +7,8 @@ setTimeout(function() {
 (function loop() {
 	var timeOut = Math.round(Math.random() * 15 * 60 * 1000);
 	setTimeout(function() {
+		var audio = new Audio('notification.mp3');
+		audio.play();
 		$('#displayCase').load('grabber.php?url='+ 'http://9gag.com/');
 		loop();
 	}, timeOut);
