@@ -21,3 +21,29 @@ h1 {
 	padding-top: 0px;
 	margin-top: 0px;
 }
+
+.button {
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #bbbbbb), color-stop(1, #888888) );
+	background: -moz-linear-gradient( center top, #bbbbbb 5%, #888888 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bbbbbb', endColorstr='#888888');
+	background-color: #bbbbbb;
+	display: block;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+	line-height: 45px;
+	width: 180px;
+	text-decoration: none;
+	text-align: center;
+	text-shadow: 1px 1px 0px #212121;
+	margin: 10px auto auto auto;
+	outline: none;
+}
+
+.button:hover {
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #888888), color-stop(1, #bbbbbb) );
+	background: -moz-linear-gradient( center top, #888888 5%, #bbbbbb 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#888888', endColorstr='#bbbbbb');
+	background-color: #888888;
+}
